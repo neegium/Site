@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  {% include layout/head.html %}
+  </head>
+  <body id="page-top" class="index" ng-app="sei-app">
+  	{% include layout/navbar.html %}
+
+    {{ content }}
+
+    {% include layout/footer.html %}
+
+    {% javascript main %}
+  </body>
+</html>
