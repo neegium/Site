@@ -1,0 +1,83 @@
+#mentorsheader
+  text-align: center
+  background-attachment: fixed
+  background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%)
+  background-position: center center
+  background-repeat: none
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  height: 100%
+  padding-top: 50px
+  .mentors-title
+    margin-bottom: 30px
+    border: 3px solid #fafafa
+    color: #fafafa
+  .section-title
+    margin-top: 50px
+
+#mentorsbody
+  background-size: cover
+  background-attachment: scroll
+  font-size: 1.2em
+  font-family: "Lato"
+  display: table
+  width: 100%
+  height: auto
+  text-align: center
+  color: #222
+  background-position: center center
+  background-repeat: none
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  &.business, &.health
+    background-color: #fafafa
+    margin-top: 10px
+  &.tech
+    background-color: rgba(255, 255, 255, 0.8)
+    margin-top: 10px
+  h2
+    color: #f58032
+    margin-top: 22px
+    margin-bottom: 22px
+  .mentor
+    margin-bottom: 20px
+  .mentors-text
+    text-align: center
+    color: #212121
+  .mentor-img
+    border-radius: 100%
+    width: 200px
+    height: 200px
+    background-size: cover
+    vertical-align: middle
+    display: inline-block
+  h4
+    font-size: 22px
+    color: #f58032
+  h5
+    font-size: 20px
+    text-transform: none
+  .text-toggle[aria-expanded="false"] .text-expanded
+    display: none
+  .text-toggle[aria-expanded="true"] .text-collapsed
+    display: none
+  .btn
+    background-color: #fafafa
+    border-color: #3241a6
+    color: #3241a6
+    &:hover, &:active
+      background-color: #f58032
+      border-color: #f58032
+      color: #fafafa
+  h6
+    font-size: 18px
+    text-align: justify
+    color: rgba(51,51,51,0.75)
+    text-transform: none
+    font-weight: bold
+    @media only screen and (max-device-width: 480px)
+      text-align: center
