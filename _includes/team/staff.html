@@ -7,13 +7,10 @@
 
     {% for staff in site.data.staff %}
     {% if staff.pic %}
-    <div repeat="staff in staffs" class="col-md-2  col-sm-2 col-xs-3 staff" style="padding: 20px 125px;">
+    <div class="col-md-2 col-sm-2 col-xs-3 staff">
       <div class="staff-info-container" style="background-image: url( {% asset_path 'staff/{{ staff.pic }}' %} ); border-radius: 80%;">
         <div class="staff-info">
-          <span class="col-md-12 staff-name">{{ staff.name }}</span>
-            {% if staff.school %}
-              <p class="staff-text"> {{ staff.school }}</p>
-            {% endif %}
+          <div class="col-md-12 staff-name">{{ staff.name }}</div>
             {% if staff.job %}
               <p class="staff-text"> {{ staff.job }}</p>
             {% endif %}
