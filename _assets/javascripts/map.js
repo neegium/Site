@@ -1,5 +1,5 @@
 function initialize() {
-var myLatlng = new google.maps.LatLng(41.561464, -8.397333);
+var myLatlng = new google.maps.LatLng(41.453142, -8.289201);
 var mapOptions = {
 zoom: 18,
 center: myLatlng,
@@ -12,7 +12,7 @@ var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
 var marker = new google.maps.Marker({
 position: myLatlng,
 map: map,
-title: 'HeartBits 2017'
+title: 'neegium'
 });
 map.setTilt(45);
 }
