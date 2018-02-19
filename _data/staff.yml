@@ -30,9 +30,9 @@
   pic: N_RAFAELA.JPG
   job: Diretora Recursos Humanos
 
-#- name: Filipe Dantas
-#  pic: N_FILIPE.JPG
-#  job: Diretor Recreativo
+- name: Filipe Dantas
+  pic: N_FILIPE.JPG
+  job: Diretor Recreativo
 
 - name: Paulo Lemos
   pic: N_PAULO.JPG
