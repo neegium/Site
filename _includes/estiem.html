@@ -2,7 +2,7 @@
   <div class="container" style="margin-top: 50px">
    
     <div class="section-title-container">
-      <h1 class="section-title honor-title"> Assembleia Geral </h1>
+      <h1 class="section-title honor-title"> ESTIEM LG Minho </h1>
     </div >
   </div>
 </section>
@@ -10,6 +10,7 @@
   <div class="container" style="margin-top: 50px">
     {% for member in site.data.mentors %}
     {% if member.pic %}
+    <div class="pessoas">
     <div class="col-md-2 col-sm-2 col-xs-3 honors">
       <div class="member-img" style="background-image: url({% asset_path 'honors/{{member.pic}}'%})"> 
       <div class="member-info">
@@ -19,6 +20,7 @@
           {% endif %}
         </div>
       </div>
+    </div>
     </div>
     {% endif %}
     {% endfor %}

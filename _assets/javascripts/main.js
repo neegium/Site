@@ -8,3 +8,4 @@
 //= require nav-var.js
 //= require about-text.js
 //= require scrolldiv.js
+//= require fadein.js
