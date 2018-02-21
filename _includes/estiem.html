@@ -10,7 +10,7 @@
   <div class="container" style="margin-top: 50px">
     {% for member in site.data.mentors %}
     {% if member.pic %}
-    <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="50">
+    <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="zoom-in" data-aos-duration="500" data-aos-offset="50">
       <div class="member-img" style="background-image: url({% asset_path 'honors/{{member.pic}}'%})"> 
       <div class="member-info">
         <div class="col-md-12 member-name">{{ member.name }}</div>
