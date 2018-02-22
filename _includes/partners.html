@@ -1,0 +1,26 @@
+<section id="partnershead">
+  <div class="container" style="margin-top: 50px">
+
+    <div class="section-title-container">
+      <h1 class="section-title honor-title"> partneros </h1>
+    </div >
+  </div>
+</section>
+    {% for partner in site.data.partners %}
+    {% if partner.pic %}
+    <section id="partnersbody" class="{{partner.color}}">
+    <div class="container">
+      <a href="{{partner.link}}" >
+        <div class="col-md-4 partner-img" style="background-image: url({% asset_path 'partners/{{partner.pic}}'%})" >
+        </div>
+      </a>
+      <div class="col-md-8 partner-info">
+        <h3 class="partner-name">{{ partner.name }}</h3>
+          {% if partner.note %}
+            <div class="partners-bio"> {{ partners.note }}</div>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+    {% endfor %}
