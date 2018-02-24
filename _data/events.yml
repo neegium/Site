@@ -1,0 +1,41 @@
+- name: Visita DST
+  pic: VisitaDST.JPG
+  note:
+  url: https://www.facebook.com/events/1787395301589228/
+  color: gray
+
+- name: SÊ MAIS!
+  pic: SeMais.JPG
+  note: Uma tarde em que demos a conhecer, aos nossos estudantes, várias organizações de solidariedade/voluntariado, como a UDrem, Leos, AISEC e ESN,  para que cada um pudesse ouvir testemunhos de voluntários e perceber se teriam interesse em se juntarem a alguma das associações.
+  url: https://www.facebook.com/events/440157116325444/
+  color: white
+
+- name: BE THE CHOSEN ONE
+  pic: BeTheChosenOne.JPG
+  note: O NEEGIUM deu a oportunidade, aos seus alunos, de conhecerem duas grandes empresas, a Hays e a Alento. O evento contou com um workshop sobre os processos de recrutamento e entrevistas de emprego, dirigida pela Hays e uma palestra motivacional, sobre a entrada dos jovens no mercado de trabalho, como podem ser competitivos e como retirar o melhor de cada um, orientada pela Alento.
+  url: https://www.facebook.com/events/1195960610530906/
+  color: gray
+
+- name: JANTAR DE GALA MIEGI 2017
+  pic: JantaDeGalaMIEGI2017.JPG
+  note:
+  url: https://www.facebook.com/events/1195960610530906/
+  color: gray
+
+- name: NEEGIUM DAY 2017
+  pic:
+  note: Atividade de boas vindas aos novos alunos.
+  url: https://www.facebook.com/events/1195960610530906/
+  color: gray
+
+- name: JORNADAS MIEGI 2017 – PRESS THE SWITCH
+  pic: Jornadas.JPG
+  note: O NEEGIUM organizou, mais uma vez, as Jornadas de MIEGI. Foram dois dias preenchidos com workshops, palestras e algumas surpresas. Nestes dias, os alunos conseguiram enriquecer a sua formação académica e profissional, ficar a conhecer melhor as potencialidades do curso, bem como melhorar as suas soft skills.
+  url: https://www.facebook.com/events/850841858426577/
+  color: gray
+
+- name: VISITA DE ESTUDO POLISPORT
+  pic: polisport.JPG
+  note: Realizou-se uma visita de estudo às instalações da Polisport Portugal, que consistiu na explicação das ferramentas para a otimização dos sistemas de produção e de todo processo em chão de fabrica.
+  url: https://www.facebook.com/events/1619933708044153/
+  color: gray
