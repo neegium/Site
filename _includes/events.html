@@ -1,0 +1,26 @@
+<section id="honorshead">
+  <div class="container" style="margin-top: 50px">
+
+    <div class="section-title-container">
+      <h1 class="section-title honor-title"> Eventos </h1>
+    </div >
+  </div>
+</section>
+    {% for event in site.data.events %}
+    {% if event.pic %}
+    <section id="eventsbody" class="{{event.color}}">
+    <div class="container">
+      <a href="{{event.url}}" >
+        <div class="col-md-4 event-img" style="background-image: url({% asset_path 'events/{{event.pic}}'%})" >
+        </div>
+      </a>
+      <div class="col-md-8 event-info">
+        <h3 class="event-name">{{ event.name }}</h3>
+          {% if event.note %}
+            <div class="events-bio"> {{ event.note }}</div>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+    {% endfor %}
