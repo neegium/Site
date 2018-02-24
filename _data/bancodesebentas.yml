@@ -1,0 +1,240 @@
+- name: Álgebra Linear EE
+  link: http://www.facebook.com
+  ano: 1
+  semestre: 1
+
+- name: Algoritmia e Programação
+  link: http://www.google.pt
+  ano: 1
+  semestre: 1
+
+- name: Cálculo EE
+  link: http://www.google.pt
+  ano: 1
+  semestre: 1
+
+- name: Introdução à Engenharia e Gestão Industrial
+  link: http://www.google.pt
+  ano: 1
+  semestre: 1
+
+- name: Projeto Integrado em Eng. e Gestão Industrial I
+  link: http://www.google.pt
+  ano: 1
+  semestre: 1
+
+- name: Química Geral EE
+  link: http://www.google.pt
+  ano: 1
+  semestre: 1
+
+- name: Ambientes e Contextos de Programação
+  link: http://www.google.pt
+  ano: 1
+  semestre: 2
+
+- name: Análise de Custos
+  link: http://www.google.pt
+  ano: 1
+  semestre: 2
+
+- name: Análise Matemática EE
+  link: http://www.google.pt
+  ano: 1
+  semestre: 2
+
+- name: Estatística Aplicada
+  link: http://www.google.pt
+  ano: 1
+  semestre: 2
+
+- name: Física EE
+  link: http://www.google.pt
+  ano: 1
+  semestre: 2
+
+- name: Introdução à Engenharia Económica
+  link: http://www.google.pt
+  ano: 1
+  semestre: 2
+
+
+- name: Complementos de Análise Matemática EE
+  link: http://www.google.pt
+  ano: 2
+  semestre: 1
+
+- name: Complementos de Estatística
+  link: http://www.google.pt
+  ano: 2
+  semestre: 1
+
+- name: Eletromagnetismo EE
+  link: http://www.google.pt
+  ano: 2
+  semestre: 1
+
+- name: Gestão de Custos
+  link: http://www.google.pt
+  ano: 2
+  semestre: 1
+
+- name: Tecnologias de Bases de Dados
+  link: http://www.google.pt
+  ano: 2
+  semestre: 1
+
+- name: Termodinâmica e Mecânica dos Fluídos
+  link: http://www.google.pt
+  ano: 2
+  semestre: 1
+
+- name: Eletrotecnia e Eletrónica
+  link: http://www.google.pt
+  ano: 2
+  semestre: 2
+
+- name: Investigação Operacional
+  link: http://www.google.pt
+  ano: 2
+  semestre: 2
+
+- name: Métodos Numéricos
+  link: http://www.google.pt
+  ano: 2
+  semestre: 2
+
+- name: OT1
+  link: http://www.google.pt
+  ano: 2
+  semestre: 2
+
+- name: OT2
+  link: http://www.google.pt
+  ano: 2
+  semestre: 2
+
+- name: Opção UMinho
+  link: http://www.google.pt
+  ano: 2
+  semestre: 2
+
+- name: Controlo de Processos e Automação
+  link: http://www.google.pt
+  ano: 3
+  semestre: 1
+
+- name: Energia, Ambiente e Instalações Industriais
+  link: http://www.google.pt
+  ano: 3
+  semestre: 1
+  
+- name: Engenharia e Gestão da Qualidade
+  link: http://www.google.pt
+  ano: 3
+  semestre: 1
+
+- name: Modelos Estocásticos de Investigação Operacional
+  link: http://www.google.pt
+  ano: 3
+  semestre: 1
+
+- name: OT3
+  link: http://www.google.pt
+  ano: 3
+  semestre: 1
+
+- name: Organização de Sistemas de Produção I
+  link: http://www.google.pt
+  ano: 3
+  semestre: 1
+
+- name: Análise de Projetos
+  link: http://www.google.pt
+  ano: 3
+  semestre: 2
+
+- name: Ergonomia e Estudo do Trabalho
+  link: http://www.google.pt
+  ano: 3
+  semestre: 2
+
+- name: Logística
+  link: http://www.google.pt
+  ano: 3
+  semestre: 2
+
+- name: Modelos de Decisão
+  link: http://www.google.pt
+  ano: 3
+  semestre: 2
+
+- name: Planeamento e Controlo da Produção
+  link: http://www.google.pt
+  ano: 3
+  semestre: 2
+
+- name: Segurança e Higiene Ocupacionais
+  link: http://www.google.pt
+  ano: 3
+  semestre: 2
+
+- name: Estudo Ergonómico de Postos de Trabalho
+  link: http://www.google.pt
+  ano: 4
+  semestre: 1
+
+- name: Gestão Integrada da Produção
+  link: http://www.google.pt
+  ano: 4
+  semestre: 1
+  
+- name: Organização de Sistemas de Produção II
+  link: http://www.google.pt
+  ano: 4
+  semestre: 1
+
+- name: Projeto Integrado em Eng. e Gestão Industrial II
+  link: http://www.google.pt
+  ano: 4
+  semestre: 1
+
+- name: Simulação
+  link: http://www.google.pt
+  ano: 4
+  semestre: 1
+
+- name: Sistemas de Informação para a Produção
+  link: http://www.google.pt
+  ano: 4
+  semestre: 1
+
+- name: CAD/CAPP
+  link: http://www.google.pt
+  ano: 4
+  semestre: 2
+
+- name: Complementos de Eng. e Gestão da Qualidade
+  link: http://www.google.pt
+  ano: 4
+  semestre: 2
+
+- name: Fabrico Assistido por Computador
+  link: http://www.google.pt
+  ano: 4
+  semestre: 2
+
+- name: Fiabilidade e Manutenção
+  link: http://www.google.pt
+  ano: 4
+  semestre: 2
+
+- name: Projeto Integrado em Eng. e Gestão Industrial III
+  link: http://www.google.pt
+  ano: 4
+  semestre: 2
+
+- name: Sociologia e Direito das Organizações
+  link: http://www.google.pt
+  ano: 4
+  semestre: 2
