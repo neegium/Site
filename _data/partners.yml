@@ -1,4 +1,31 @@
-- name: ole
-  pic: Anita_aprende_a_fazer_lasanha.JGP
-  link: http://www.investbraga.com/startup/
+- name: Lavandaria SelfService QuickWash
+  bio:
+    - ben: desconto de 20% sobre todos os preços tabelados
+  pic: wash.PNG
+  link:
+  size: 12
+
+- name: Faculdade dos trajes
+  bio:
+    - ben: Aplicar um desconto de 10€, oferecer uma pasta (10€) ou oferecer 7 emblemas à escolha na aquisição do traje
+    - ben: Aplicar o valor de 4€ na compra de um pack de 5 emblemas à escolha
+  pic: cond.JPG
+  link:
+  size: 12
+
+- name: Lando - Café Snack Bar
+  bio:
+    - ben: oferta de café na compra da refeição económica
+    - ben: 1.5 eur na compra de fino e bifana
+    - ben: 0.7eur por um fino
+  pic: lando.JPG
+  link:
+  size: 12
+
+- name: Escolas de Condução A minhota
+  bio:
+    - ben: 8% de desconto em todas as categorias
+    - ben: 10% desconto nas formações
+  pic: traj.JPG
+  link:
   size: 12

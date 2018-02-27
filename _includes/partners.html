@@ -2,7 +2,7 @@
   <div class="container" style="margin-top: 50px">
 
     <div class="section-title-container">
-      <h1 class="section-title honor-title"> partneros </h1>
+      <h1 class="section-title honor-title"> Parcerias </h1>
     </div >
   </div>
 </section>
@@ -16,9 +16,11 @@
       </a>
       <div class="col-md-8 partner-info">
         <h3 class="partner-name">{{ partner.name }}</h3>
-          {% if partner.note %}
-            <div class="partners-bio"> {{ partners.note }}</div>
-          {% endif %}
+        <div class="partners-bio">
+          {% for item in partner.bio%}
+          <li>{{item.ben}}</li>
+          {% endfor %}
+        </div>
         </div>
       </div>
     </section>
