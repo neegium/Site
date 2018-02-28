@@ -21,20 +21,20 @@ namespace :site do
   task :publish => [:generate] do
     Dir.mktmpdir do |tmp|
       system "mv _site/* #{tmp}"
-      if system "git show-ref --verify --quiet refs/heads/gh-pages"
-        system "git checkout gh-pages"
+      if system "git show-ref --verify --quiet refs/heads/master"
+        system "git checkout master"
       else
-        system "git checkout --orphan gh-pages"   # create new branch with no history
+        system "git checkout --orphan master"   # create new branch with no history
       end
       abort if $?.exitstatus != 0      # abort if checkout failed
-      system "git pull origin gh-pages"
+      system "git pull origin master"
       system "rm -rf *"
       system "mv #{tmp}/* ."
       message = "Site updated at #{Time.now.utc}"
       system "git add --all ."
       system "git commit -am #{message.shellescape}"
-      system "git push origin gh-pages"
-      system "git checkout master"
+      system "git push origin master"
+      system "git checkout develope"
       puts "Site published successfully."
     end
   end
