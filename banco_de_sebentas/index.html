@@ -1,9 +1,2718 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
 
-<div id="bds">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hackathon Heartbits">
 
-    {% include bds.html %}
+<title>NEEGIUM</title>
+
+<meta property="og:title" content="Hackathon HeartBits">
+<meta name="description" content="Uma maratona de 24 horas, organizada pela ANEM e pelo CeSIUM, onde uma equipa interprofissional de 5 elementos desenvolve um produto informático inovador que dê resposta a um problema atual na Saúde em Portugal.">
+<meta name="keywords" content="cesium, anem, hackathon, sei, subvisual, dgs">
+
+<meta property="og:description" content="Uma maratona de 24 horas, organizada pela ANEM e pelo CeSIUM, onde uma equipa interprofissional de 5 elementos desenvolve um produto informático inovador que dê resposta a um problema atual na Saúde em Portugal.">
+<meta property="og:url" content="http://heartbits.pt">
+<meta property="og:image" content="/assets/nave-d0d668919b02daa011037151ff90420a0a62b354c7573e26a92c9e79e0594f72.png">
+
+
+
+<link rel="shortcut icon" href="/assets/logo-267646edb948facb7ff6d979edd5a641890117d0a47a7b027c7f60c2bb0f846f.png">
+
+<!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+<!-- endcut-->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Custom CSS -->
+<link type="text/css" rel="stylesheet" href="/assets/main-e85d6fe03811c937ff1657e7bb19c9bd434b50a3880f9c9b5e22c90ac3e9afa3.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-67237593-7', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+  <body id="page-top" class="index" ng-app="sei-app">
+  	<nav class="navbar navbar-custom navbar-fixed-top top-nav-normal" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="/" id="nav-logo">
+        <img src="/assets/logo-267646edb948facb7ff6d979edd5a641890117d0a47a7b027c7f60c2bb0f846f.png" width="945" height="390" alt="logo.png">
+        <div>
+          <span>
+            Núcleo de<br>
+            Estudantes de<br>
+            Engenharia e<br>
+            Gestão Industrial<br>
+            da UM<br>
+          </span>
+          </div>
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav nav-item">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="nav-text" href="/">Home</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/direcao/">Quem somos ?</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/estiem/">ESTIEM LG Minho</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/events/">Eventos</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/banco_de_sebentas/">Banco de Sebentas</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/partners/">Parcerias</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+
+    <div id="bds">
+
+    <section id="bdshead">
+    <div class="container" style="margin-top: 50px">   
+      <div class="section-title-container">
+        <h1 class="section-title bds-title"> Banco de sebentas </h1>
+      </div >
+    </div>
+</section>
+<section id="stafftitle">
+    <div class="section-title-container" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+        <h1 class="section-title staff-title"> 1ºano </h1>
+    </div >
+</section>
+
+<section id="bdsbody">
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+  <button class="dropbtn">1ºSemestre</button>
+  <div class="dropdown-content">
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/0/folders/1U5Xro3gcHYDrMMn0oDCDyZ34a3UflQTb">
+      <span class="member-name">Álgebra Linear EE</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/19St27HUztBdWt4DosaHTXhRNAjPaNVQR">
+      <span class="member-name">Algoritmia e Programação</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1tE1VR8vw2N08MuE5YGySImHfLfAGyS6t">
+      <span class="member-name">Cálculo EE</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1hUNo6SMQqME3qawiNS_3MIKTHTV8esjP">
+      <span class="member-name">Introdução à Engenharia e Gestão Industrial</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1Lsqrl5CcuP-LXfFS8jEIFDv2kboXRA01">
+      <span class="member-name">Projeto Integrado em Eng. e Gestão Industrial I</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1pVyaJNO7qD2gXta7-pXKPIRzXsPoQR7M">
+      <span class="member-name">Química Geral EE</span>
+    </a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+  <button class="dropbtn">2ºSemestre</button>
+  <div class="dropdown-content">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1yJF-DJ_rCdyGDVwEXNts_MCl2Xk1W-zk">
+      <span class="member-name">Ambientes e Contextos de Programação</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1L9fagYpelJ0VEJfPU-LD0WSiHEhazH6M">
+      <span class="member-name">Análise de Custos</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1rH3MidePiqRfwMWYIzUGnHkiQlTippf_">
+      <span class="member-name">Análise Matemática EE</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1fM_WcKoRxgyfRH3PDOyEcotg0TNvLj4K">
+      <span class="member-name">Estatística Aplicada</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/1r8fcbhvim_XX6yvfwMU65vc3C_U8jtiQ">
+      <span class="member-name">Física EE</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/drive/u/3/folders/13Z8k82LLQbi7VZM40r38dG16iVOpRuo1">
+      <span class="member-name">Introdução à Engenharia Económica</span>
+    </a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+<table class="table" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+    <tbody>
+      <tr>
+        <td class="semestre">1º Semestre</td>
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/0/folders/1U5Xro3gcHYDrMMn0oDCDyZ34a3UflQTb">
+                <span class="member-name">Álgebra Linear EE</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/19St27HUztBdWt4DosaHTXhRNAjPaNVQR">
+                <span class="member-name">Algoritmia e Programação</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1tE1VR8vw2N08MuE5YGySImHfLfAGyS6t">
+                <span class="member-name">Cálculo EE</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1hUNo6SMQqME3qawiNS_3MIKTHTV8esjP">
+                <span class="member-name">Introdução à Engenharia e Gestão Industrial</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1Lsqrl5CcuP-LXfFS8jEIFDv2kboXRA01">
+                <span class="member-name">Projeto Integrado em Eng. e Gestão Industrial I</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1pVyaJNO7qD2gXta7-pXKPIRzXsPoQR7M">
+                <span class="member-name">Química Geral EE</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </tr>
+      <tr>
+        <td class="semestre">2º Semestre</td>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1yJF-DJ_rCdyGDVwEXNts_MCl2Xk1W-zk">
+                <span class="member-name">Ambientes e Contextos de Programação</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1L9fagYpelJ0VEJfPU-LD0WSiHEhazH6M">
+                <span class="member-name">Análise de Custos</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1rH3MidePiqRfwMWYIzUGnHkiQlTippf_">
+                <span class="member-name">Análise Matemática EE</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1fM_WcKoRxgyfRH3PDOyEcotg0TNvLj4K">
+                <span class="member-name">Estatística Aplicada</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/1r8fcbhvim_XX6yvfwMU65vc3C_U8jtiQ">
+                <span class="member-name">Física EE</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/drive/u/3/folders/13Z8k82LLQbi7VZM40r38dG16iVOpRuo1">
+                <span class="member-name">Introdução à Engenharia Económica</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </tr>
+    </tbody>
+</table>
+<section id="stafftitle">
+    <div class="section-title-container" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+        <h1 class="section-title staff-title"> 2ºano </h1>
+    </div >
+</section>
+
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+    <button class="dropbtn">1ºSemestre</button>
+    <div class="dropdown-content">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/12ki6bOxse2YbfoXRI38JAbpeDkH7AhJf">
+        <span class="member-name">Complementos de Análise Matemática EE</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1j1VopERhSz4M4PAIvJi_HwadOPbyI3-W">
+        <span class="member-name">Complementos de Estatística</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1AC7Eh503gPqqipPTxYvMkZ5dobamqL7P">
+        <span class="member-name">Eletromagnetismo EE</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1LzjyDboMzn2tLsAZltspDAN1sgGIIYMa">
+        <span class="member-name">Gestão de Custos</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1oqf_ziqrMB2tkNK1Ns5eMwiJCzu4fuQT">
+        <span class="member-name">Tecnologias de Bases de Dados</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1GP1v2tE89voFy1h9Plx3egjMEhLcsyTg">
+        <span class="member-name">Termodinâmica e Mecânica dos Fluídos</span>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+    <button class="dropbtn">2ºSemestre</button>
+    <div class="dropdown-content">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1IW86FfWTJhs478mTnc0aYC2o-OBTZXuc">
+        <span class="member-name">Eletrotecnia e Eletrónica</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1S0ONA2uHEHjLKP-Lq8UuAEcYVLLoi_DD">
+        <span class="member-name">Investigação Operacional</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/11ns26K2R7wdw3e1JAlihwA5DRzoqhnDO">
+        <span class="member-name">Métodos Numéricos</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1YUEvcX6ZLkgfpAnX7J1O14AS502tzIfm">
+        <span class="member-name">OT1</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1lBB_7QM5LnJ_BOA9Cem3gc7EIs0X-ZX4">
+        <span class="member-name">OT2</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1sBKV8mT6eoJezhzcDD-yIHhYLtJUo_2I">
+        <span class="member-name">Opção UMinho</span>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+</div>
+
+<table class="table" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+    <tbody>
+      <tr>
+          <td class="semestre">1º Semestre</td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/12ki6bOxse2YbfoXRI38JAbpeDkH7AhJf">
+                  <span class="member-name">Complementos de Análise Matemática EE</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1j1VopERhSz4M4PAIvJi_HwadOPbyI3-W">
+                  <span class="member-name">Complementos de Estatística</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1AC7Eh503gPqqipPTxYvMkZ5dobamqL7P">
+                  <span class="member-name">Eletromagnetismo EE</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1LzjyDboMzn2tLsAZltspDAN1sgGIIYMa">
+                  <span class="member-name">Gestão de Custos</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1oqf_ziqrMB2tkNK1Ns5eMwiJCzu4fuQT">
+                  <span class="member-name">Tecnologias de Bases de Dados</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1GP1v2tE89voFy1h9Plx3egjMEhLcsyTg">
+                  <span class="member-name">Termodinâmica e Mecânica dos Fluídos</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </tr>
+      <tr>
+          <td class="semestre">2º Semestre</td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1IW86FfWTJhs478mTnc0aYC2o-OBTZXuc">
+                  <span class="member-name">Eletrotecnia e Eletrónica</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1S0ONA2uHEHjLKP-Lq8UuAEcYVLLoi_DD">
+                  <span class="member-name">Investigação Operacional</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/11ns26K2R7wdw3e1JAlihwA5DRzoqhnDO">
+                  <span class="member-name">Métodos Numéricos</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1YUEvcX6ZLkgfpAnX7J1O14AS502tzIfm">
+                  <span class="member-name">OT1</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1lBB_7QM5LnJ_BOA9Cem3gc7EIs0X-ZX4">
+                  <span class="member-name">OT2</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1sBKV8mT6eoJezhzcDD-yIHhYLtJUo_2I">
+                  <span class="member-name">Opção UMinho</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </tr>
+    </tbody>
+</table>
+
+<section id="stafftitle">
+    <div class="section-title-container" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+        <h1 class="section-title staff-title"> 3ºano </h1>
+    </div >
+</section>
+
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+    <button class="dropbtn">1ºSemestre</button>
+    <div class="dropdown-content">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1IBAiq_ifauNNE8qEZ78fqE0KnfsnqbBv">
+        <span class="member-name">Controlo de Processos e Automação</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1BfGSZQCQqDstHtYC20ylmCfanvcYnV40">
+        <span class="member-name">Energia, Ambiente e Instalações Industriais</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1mOhimrNrgTUyNIDgSAIQEjAU5ooe1RQc">
+        <span class="member-name">Engenharia e Gestão da Qualidade</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1UhuQC5R4NQV_FXvnxJGyxnA8TIW0z-qC">
+        <span class="member-name">Modelos Estocásticos de Investigação Operacional</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1UhuQC5R4NQV_FXvnxJGyxnA8TIW0z-qC">
+        <span class="member-name">OT3</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1qoHBVeh_gApib9kUm2faeaclsWrKnEdz">
+        <span class="member-name">Organização de Sistemas de Produção I</span>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+</div>
+  
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+    <button class="dropbtn">2ºSemestre</button>
+    <div class="dropdown-content">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1pb3_axf_0If24ZzqdsZEQhI1VPuKmXve">
+        <span class="member-name">Análise de Projetos</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1dAvwGXcRDW1InQAs3zj87xCq0U5pjj_u">
+        <span class="member-name">Ergonomia e Estudo do Trabalho</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1nnI6nmxGpZfdw6aVEXnlCDm0i2E-B2Pp">
+        <span class="member-name">Logística</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1UjDO5rQ2BaA1ab8I7ShVbl7AKGRlQ0II">
+        <span class="member-name">Modelos de Decisão</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/1MAAziGPLcc50I51hKs6BQktnfdeJIgdJ">
+        <span class="member-name">Planeamento e Controlo da Produção</span>
+      </a>
+      
+      
+      
+      
+      
+      <br>
+      <a href="https://drive.google.com/drive/u/3/folders/17qDBtmPdokk0PMTaXV1NrKu6HgeXt7p5">
+        <span class="member-name">Segurança e Higiene Ocupacionais</span>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+</div>
+
+<table class="table" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500"> 
+    <tbody>
+      <tr>
+          <td class="semestre">1º Semestre</td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1IBAiq_ifauNNE8qEZ78fqE0KnfsnqbBv">
+                  <span class="member-name">Controlo de Processos e Automação</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1BfGSZQCQqDstHtYC20ylmCfanvcYnV40">
+                  <span class="member-name">Energia, Ambiente e Instalações Industriais</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1mOhimrNrgTUyNIDgSAIQEjAU5ooe1RQc">
+                  <span class="member-name">Engenharia e Gestão da Qualidade</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1UhuQC5R4NQV_FXvnxJGyxnA8TIW0z-qC">
+                  <span class="member-name">Modelos Estocásticos de Investigação Operacional</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1UhuQC5R4NQV_FXvnxJGyxnA8TIW0z-qC">
+                  <span class="member-name">OT3</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1qoHBVeh_gApib9kUm2faeaclsWrKnEdz">
+                  <span class="member-name">Organização de Sistemas de Produção I</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </tr>
+      <tr>
+          <td class="semestre">2º Semestre</td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1pb3_axf_0If24ZzqdsZEQhI1VPuKmXve">
+                  <span class="member-name">Análise de Projetos</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1dAvwGXcRDW1InQAs3zj87xCq0U5pjj_u">
+                  <span class="member-name">Ergonomia e Estudo do Trabalho</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1nnI6nmxGpZfdw6aVEXnlCDm0i2E-B2Pp">
+                  <span class="member-name">Logística</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1UjDO5rQ2BaA1ab8I7ShVbl7AKGRlQ0II">
+                  <span class="member-name">Modelos de Decisão</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/1MAAziGPLcc50I51hKs6BQktnfdeJIgdJ">
+                  <span class="member-name">Planeamento e Controlo da Produção</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          <td>
+                <a href="https://drive.google.com/drive/u/3/folders/17qDBtmPdokk0PMTaXV1NrKu6HgeXt7p5">
+                  <span class="member-name">Segurança e Higiene Ocupacionais</span>
+                </a>
+          </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </tr>
+    </tbody>
+</table>
+
+<section id="stafftitle">
+  <div class="section-title-container" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+      <h1 class="section-title staff-title"> 4ºano </h1>
+  </div >
+</section>
+
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+  <button class="dropbtn">1ºSemestre</button>
+  <div class="dropdown-content">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1gMwbbdBybnuLgrW8FvSy0DnOXqyLLTgb">
+      <span class="member-name">Estudo Ergonómico de Postos de Trabalho</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1Q-xJLC5S9HOPTDbxFNftmDtuWwPBhVZ8">
+      <span class="member-name">Gestão Integrada da Produção</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1TFBhCuRIPrhL2AtLjjMWb7Fftd-KzhLP">
+      <span class="member-name">Organização de Sistemas de Produção II</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1IsOHsdnJqmzHs1viDVhhilKHSYh2zkIW">
+      <span class="member-name">Projeto Integrado em Eng. e Gestão Industrial II</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1_MNMxqaFufYafFq9-1NAC1t4hfzbd2nr">
+      <span class="member-name">Simulação</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=120mB02b5URZN8ioO2huANTSy_HSp5Xmg">
+      <span class="member-name">Sistemas de Informação para a Produção</span>
+    </a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+<div class='lista' data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+  <button class="dropbtn">2ºSemestre</button>
+  <div class="dropdown-content">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1RTEohHsNXfRzcUmRfLDK8iZr66GGTkUT">
+      <span class="member-name">CAD/CAPP</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1H8arHBs2dJ8-negDXfj4jq6DuoB32ChS">
+      <span class="member-name">Complementos de Eng. e Gestão da Qualidade</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1wwYdvfRqkqvVMQLfF5cnx8fi32rFtUer">
+      <span class="member-name">Fabrico Assistido por Computador</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1vNMcJtrHxET9YnrmtT-zIDv5HF1VskpU">
+      <span class="member-name">Fiabilidade e Manutenção</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=19EeJs2HgESfzcscJs1IL1YVMcF2oFR3P">
+      <span class="member-name">Projeto Integrado em Eng. e Gestão Industrial III</span>
+    </a>
+    
+    
+    
+    
+    
+    <br>
+    <a href="https://drive.google.com/open?id=1d3KwXPKJJdvFJWAAC2oMavoF9OXdWkvI">
+      <span class="member-name">Sociologia e Direito das Organizações</span>
+    </a>
+    
+    
+    
+  </div>
+</div>
+
+<table class="table" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500"> 
+  <tbody>
+    <tr>
+        <td class="semestre">1º Semestre</td>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1gMwbbdBybnuLgrW8FvSy0DnOXqyLLTgb">
+                <span class="member-name">Estudo Ergonómico de Postos de Trabalho</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1Q-xJLC5S9HOPTDbxFNftmDtuWwPBhVZ8">
+                <span class="member-name">Gestão Integrada da Produção</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1TFBhCuRIPrhL2AtLjjMWb7Fftd-KzhLP">
+                <span class="member-name">Organização de Sistemas de Produção II</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1IsOHsdnJqmzHs1viDVhhilKHSYh2zkIW">
+                <span class="member-name">Projeto Integrado em Eng. e Gestão Industrial II</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1_MNMxqaFufYafFq9-1NAC1t4hfzbd2nr">
+                <span class="member-name">Simulação</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=120mB02b5URZN8ioO2huANTSy_HSp5Xmg">
+                <span class="member-name">Sistemas de Informação para a Produção</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </tr>
+    <tr>
+        <td class="semestre">2º Semestre</td>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1RTEohHsNXfRzcUmRfLDK8iZr66GGTkUT">
+                <span class="member-name">CAD/CAPP</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1H8arHBs2dJ8-negDXfj4jq6DuoB32ChS">
+                <span class="member-name">Complementos de Eng. e Gestão da Qualidade</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1wwYdvfRqkqvVMQLfF5cnx8fi32rFtUer">
+                <span class="member-name">Fabrico Assistido por Computador</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1vNMcJtrHxET9YnrmtT-zIDv5HF1VskpU">
+                <span class="member-name">Fiabilidade e Manutenção</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=19EeJs2HgESfzcscJs1IL1YVMcF2oFR3P">
+                <span class="member-name">Projeto Integrado em Eng. e Gestão Industrial III</span>
+              </a>
+        </td>
+        
+        
+        
+        
+        
+        <td>
+              <a href="https://drive.google.com/open?id=1d3KwXPKJJdvFJWAAC2oMavoF9OXdWkvI">
+                <span class="member-name">Sociologia e Direito das Organizações</span>
+              </a>
+        </td>
+        
+        
+        
+    </tr>
+  </tbody>
+</table>
+</section>
+  
 
 </div>
+
+
+    <footer>
+  <div class="container" style="z-index: -1">
+    <div class="col-md-12">
+      <a target="_blank" href="https://www.facebook.com/NEEGIUM"><i class="fa fa-facebook fa-2x"></i></a>
+      <p>Made with ❤ <a href="#" onclick="window.open('http://www.github.com/ZePedroResende');">by </a> and <a href="#" onclick= "window.open('http://www.github.com/a-sac');" >by </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    <script type="text/javascript" src="/assets/main-30d07bb56fa4c75966560dbcae6843d21b806bad7c7b0b0fbf5a037a37965211.js"></script>
+  </body>
+</html>

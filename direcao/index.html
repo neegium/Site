@@ -1,9 +1,443 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
 
-<div id="team">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hackathon Heartbits">
 
-	{% include team/staff.html %}
+<title>NEEGIUM</title>
+
+<meta property="og:title" content="Hackathon HeartBits">
+<meta name="description" content="Uma maratona de 24 horas, organizada pela ANEM e pelo CeSIUM, onde uma equipa interprofissional de 5 elementos desenvolve um produto informático inovador que dê resposta a um problema atual na Saúde em Portugal.">
+<meta name="keywords" content="cesium, anem, hackathon, sei, subvisual, dgs">
+
+<meta property="og:description" content="Uma maratona de 24 horas, organizada pela ANEM e pelo CeSIUM, onde uma equipa interprofissional de 5 elementos desenvolve um produto informático inovador que dê resposta a um problema atual na Saúde em Portugal.">
+<meta property="og:url" content="http://heartbits.pt">
+<meta property="og:image" content="/assets/nave-d0d668919b02daa011037151ff90420a0a62b354c7573e26a92c9e79e0594f72.png">
+
+
+
+<link rel="shortcut icon" href="/assets/logo-267646edb948facb7ff6d979edd5a641890117d0a47a7b027c7f60c2bb0f846f.png">
+
+<!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Medula+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+<!-- endcut-->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Custom CSS -->
+<link type="text/css" rel="stylesheet" href="/assets/main-e85d6fe03811c937ff1657e7bb19c9bd434b50a3880f9c9b5e22c90ac3e9afa3.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-67237593-7', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </head>
+  <body id="page-top" class="index" ng-app="sei-app">
+  	<nav class="navbar navbar-custom navbar-fixed-top top-nav-normal" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="/" id="nav-logo">
+        <img src="/assets/logo-267646edb948facb7ff6d979edd5a641890117d0a47a7b027c7f60c2bb0f846f.png" width="945" height="390" alt="logo.png">
+        <div>
+          <span>
+            Núcleo de<br>
+            Estudantes de<br>
+            Engenharia e<br>
+            Gestão Industrial<br>
+            da UM<br>
+          </span>
+          </div>
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav nav-item">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="nav-text" href="/">Home</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/direcao/">Quem somos ?</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/estiem/">ESTIEM LG Minho</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/events/">Eventos</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/banco_de_sebentas/">Banco de Sebentas</a>
+          </li>
+          <li>
+            <a class="nav-text" href="/partners/">Parcerias</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+
+    <div id="team">
+
+	<div id="tudo">
+    
+  <section id="staffhead">
+      <div class="section-title-container">
+          <h1 class="section-title staff-title"> Quem somos ? </h1>
+      </div >
+  </section>
+
+  <div id="lista">
+      <div class="everything" data-aos="fade-left" data-aos-duration="1000">EQUIPA.</div>
+      <div class="everything" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">COMPROMISSO.</div>
+      <div class="everything" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">TRABALHO.</div>
+  </div>
+
+
+  <section id="stafftitle">
+    <div class="section-title-container">
+        <h1 class="section-title staff-title"> Direção </h1>
+    </div >
+  </section>
+
+  <section id="staff">
+    <div class="container" style="margin-top: 50px">
+
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_HUGO-a04bae10e57f4c32445d75a70f2f1730c8ef9afb73903c1977d8399f78a4d5bd.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Hugo Costa</div>
+              
+                <p class="staff-text"> Presidente</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_GONÇALO-cb55f25c844ccbf2887049bf6a155e78348049e0faf4cefe834bfe46399e96d8.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Gonçalo Dias</div>
+              
+                <p class="staff-text"> Vice Presidente</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_DUARTE-d233769aba3cf753b1125e45e133c447f75ec4b93a4e28eb534c832906248cde.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Duarte Presa</div>
+              
+                <p class="staff-text"> Tesoureiro</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_ANA_FRANCISCA-7dc107b92c9b79bf138d16a5cdc52856b1bbb2abd1db4f06e3e42b328c831180.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Francisca Costa</div>
+              
+                <p class="staff-text"> Secretária</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_ALEXANDRE-471c30c9d23bc8dcb0d3cb21a77d43cfd922cc99df3acc2038b41e27b93bd8cc.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Alexandre Azevedo</div>
+              
+                <p class="staff-text"> Diretor Relações Internas</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_MÓNICA-8de9a968e8a80ae1e3fbd444c4dfb7ec368d16bf7f071171db393e8f1888c2d3.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Mónica Magalhães</div>
+              
+                <p class="staff-text"> Diretora Comunicação e Imagem</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_CATARINA_CACHO-f6854ca9644a071ec31aac81da101cc15f8c22ad303176427bb83ebbc38c8c23.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Catarina Cacho</div>
+              
+                <p class="staff-text"> Diretora Pedagógico</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_RAFAELA-9a8c1d69378ec697739c352705827bebded07dcee184218367cbbac26b1cb6ba.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Rafaela Veiga</div>
+              
+                <p class="staff-text"> Diretora Recursos Humanos</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_FILIPE-ff42b83656432d72e39950d8823b3ed898ed06decf2f6e95bec64775f181315c.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Filipe Dantas</div>
+              
+                <p class="staff-text"> Diretor Recreativo</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_PAULO-fdd812dc1c1d7aae160b342e812c65885f4a60aee9fbb4ac5b8310a67acad915.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Paulo Lemos</div>
+              
+                <p class="staff-text"> Vogal</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_SARA-e3b3fae18f0462e11c2c213b517c292f86827bdbab2fa9e024849fa0164bbd61.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Sara Faria</div>
+              
+                <p class="staff-text"> Vogal</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_LUÍS-4cd60d46ecb508563d8d4e3cd52c8d9edcdddf6230ccf088b013b8fb1fe38b1a.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Luís Fernandes</div>
+              
+                <p class="staff-text"> Vogal</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_DIOGO-f50e5dd2e6920b51f5558015abd102664ed5308391c4dd9cbd9515e3fc33e50c.jpg ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">Diogo Silva</div>
+              
+                <p class="staff-text"> Vogal</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 staff" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="1000" data-aos-offset="-50">
+        <div class="staff-info-container" style="background-image: url( /assets/staff/N_JOÃO-3e81e71cc676d8f720e166c800dc95987c8fa04fd04f0892d68ae9e21d226533.JPG ); border-radius: 80%;">
+          <div class="staff-info">
+            <div class="col-md-12 staff-name">João Correia</div>
+              
+                <p class="staff-text"> Vogal</p>
+              
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </section>
+
+  <section id="stafftitle">
+    <div class="section-title-container">
+        <h1 class="section-title staff-title"> Assembleia Geral </h1>
+    </div >
+  </section>
+
+  <section id="honorsbody">
+    <div class="container" style="margin-top: 50px">
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
+        <div class="member-img" style="background-image: url(/assets/honors/AG_CLÁUDIA-11cf9f8d34fcd8e69fd6519a5fcdb51132d5d083f42f1ed135785571f16cb028.JPG)"> 
+        <div class="member-info">
+          <div class="col-md-12 member-name">Cláudia Santos</div>
+            
+              <div class="honor-job"> Presidente</div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
+        <div class="member-img" style="background-image: url(/assets/honors/AG_NATACHA-87c4b3b4bb6ad8f4ba9bf8f0c5e0f64b9eca33f0f6db0c13e7ed3304c0206d28.JPG)"> 
+        <div class="member-info">
+          <div class="col-md-12 member-name">Natacha Cunha</div>
+            
+              <div class="honor-job"> Vice-Presidente</div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
+        <div class="member-img" style="background-image: url(/assets/honors/AG_CARLA-a1a3402148158a6ea9a8b254c7f0fee413845a5b4a38ca58d2709cea198e848b.JPG)"> 
+        <div class="member-info">
+          <div class="col-md-12 member-name">Carla Meira</div>
+            
+              <div class="honor-job"> Secretária</div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </section>
+
+  <section id="stafftitle">
+    <div class="section-title-container">
+        <h1 class="section-title staff-title"> Conselho Fiscal </h1>
+    </div >
+  </section>
+
+  <section id="honorsbody">
+    <div class="container" style="margin-top: 50px">
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
+        <div class="member-img" style="background-image: url(/assets/honors/CF_RAQUEL-57ea1f0680000e993c9abc4804220395577f65174a10b05a1788f495f19f4c07.JPG)"> 
+        <div class="member-info">
+          <div class="col-md-12 member-name">Raquel Marques</div>
+            
+              <div class="honor-job"> Presidente</div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
+        <div class="member-img" style="background-image: url(/assets/honors/CF_ESTEFANY-6f0a4602db7d77cc8b29e583320f12a60275f7b3f776600cd79353b49cefba78.JPG)"> 
+        <div class="member-info">
+          <div class="col-md-12 member-name">Estefany Soares</div>
+            
+              <div class="honor-job"> vice-Presidente</div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-2 col-sm-2 col-xs-3 honors"  data-aos="fade-up" data-aos-duration="1000" data-aos-offset="50">
+        <div class="member-img" style="background-image: url(/assets/honors/CF_RITA-8b5afe96d1c94239f953fa265ef9f8c4c9fc62d75db0649a437ea7edcf9cfa28.JPG)"> 
+        <div class="member-info">
+          <div class="col-md-12 member-name">Rita Lima</div>
+            
+              <div class="honor-job"> Secretária</div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </section>
+</div>
+
 
 </div>
+
+
+    <footer>
+  <div class="container" style="z-index: -1">
+    <div class="col-md-12">
+      <a target="_blank" href="https://www.facebook.com/NEEGIUM"><i class="fa fa-facebook fa-2x"></i></a>
+      <p>Made with ❤ <a href="#" onclick="window.open('http://www.github.com/ZePedroResende');">by </a> and <a href="#" onclick= "window.open('http://www.github.com/a-sac');" >by </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    <script type="text/javascript" src="/assets/main-30d07bb56fa4c75966560dbcae6843d21b806bad7c7b0b0fbf5a037a37965211.js"></script>
+  </body>
+</html>
