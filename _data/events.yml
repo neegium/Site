@@ -1,41 +1,79 @@
-- name: Visita DST
-  pic: VisitaDST.JPG
-  note: Demos, aos nossos alunos, a possibilidade de conhecerem o grupo dst. Assim tiveram a oportunidade de descobrir quais as empresas que o constituem, como elas funcionam e como trabalham entre si.  Os alunos assistiram a uma pequena apresentação do grupo, onde puderam colar questões e esclarecer as suas dúvidas e posteriormente fizeram uma visita às instalações da empresa.
-  url: https://www.facebook.com/events/1787395301589228/
-  color: gray
-
-- name: SÊ MAIS!
-  pic: SeMais.JPG
-  note: Uma tarde em que demos a conhecer, aos nossos estudantes, várias organizações de solidariedade/voluntariado, como a UDrem, Leos, AISEC e ESN,  para que cada um pudesse ouvir testemunhos de voluntários e perceber se teriam interesse em se juntarem a alguma das associações.
-  url: https://www.facebook.com/events/440157116325444/
-  color: white
-
-- name: BE THE CHOSEN ONE
-  pic: BeTheChosenOne.JPG
-  note: O NEEGIUM deu a oportunidade, aos seus alunos, de conhecerem duas grandes empresas, a Hays e a Alento. O evento contou com um workshop sobre os processos de recrutamento e entrevistas de emprego, dirigida pela Hays e uma palestra motivacional, sobre a entrada dos jovens no mercado de trabalho, como podem ser competitivos e como retirar o melhor de cada um, orientada pela Alento.
-  url: https://www.facebook.com/events/1195960610530906/
-  color: gray
-
-- name: JANTAR DE GALA MIEGI 2017
-  pic: JantaDeGalaMIEGI2017.JPG
+- name: LG Exchange - Eindhoven visits Minho
+  pic: 1.JPG
   note:
-  url: https://www.facebook.com/events/1195960610530906/
+  url: https://www.facebook.com/events/165879804090122/
   color: white
 
-- name: NEEGIUM DAY 2017
-  pic:
-  note: Atividade de boas vindas aos novos alunos.
-  url: https://www.facebook.com/events/1195960610530906/
-  color: gray
-
-- name: JORNADAS MIEGI 2017 – PRESS THE SWITCH
-  pic: Jornadas.JPG
-  note: O NEEGIUM organizou, mais uma vez, as Jornadas de MIEGI. Foram dois dias preenchidos com workshops, palestras e algumas surpresas. Nestes dias, os alunos conseguiram enriquecer a sua formação académica e profissional, ficar a conhecer melhor as potencialidades do curso, bem como melhorar as suas soft skills.
-  url: https://www.facebook.com/events/850841858426577/
+- name: South West Regional Coordination Meeting
+  pic: 2.JPG
+  note: Mais um Coordination Meeting organizado pelo LG mas desta vez reunindo toda a região. Portugal, Espanha e Itália forma a South West Region, e este evento acolheu participantes de diversas Universidades dos três países para em conjunto discutirem o futuro da região, analisarem os problemas existentes e definirem uma estratégia a longo prazo para os solucionar. Foi um evento muito importante, não só por todo o trabalho realizado em prol do desenvolvimento da região, mas também pelo seu forte contributo na criação de laços de amizade entre os diferentes LG’s.
+  url: https://www.facebook.com/events/986911814781226/
   color: white
 
-- name: VISITA DE ESTUDO POLISPORT
-  pic: polisport.JPG
-  note: Realizou-se uma visita de estudo às instalações da Polisport Portugal, que consistiu na explicação das ferramentas para a otimização dos sistemas de produção e de todo processo em chão de fabrica.
-  url: https://www.facebook.com/events/1619933708044153/
-  color: gray
+- name: TIMES Semi Final, Minho
+  pic: 3.JPG
+  note: Pela primeira vez na sua história o LG acolheu uma semifinal do TIMES. Neste evento foram recebidas equipas de 8 universidades europeias distintas que ao longo de três dias de competição lutaram por um lugar na final. Este foi um evento que contou com nomes sonantes como parceiros, como a Amazon, e que reforçou a relevância do LG em toda a organização.
+  url: https://www.facebook.com/events/1968936156479979/
+  color: white
+
+
+- name: TIMES Local Qualification 2017
+  pic: 4.JPG
+  note: Mais uma vez foi realizada a Local Qualification do TIMES, desta vez com algumas mudanças, sendo a mais evidente a repartição do evento por três dias de competição, permitindo a participação de um maior número de equipas e de um maior envolvimento das mesmas. Os vencedores desta edição – Verónica Abreu, Mariana Martins, Rafaela Veiga e Miguel Carvalho – representaram o Minho na semifinal de Groningen, a qual ganharam, tornando-se a sim na primeira equipa do Minho presente numa final da competição. A final aconteceu em Viena e a equipa ficou em 4º lugar nesta que é a maior competição de casos de estudo de estudantes de Engenharia e Gestão Industrial.
+  url: https://www.facebook.com/events/1968936156479979/
+  color: white
+
+- name: Local Group Exchange, Madrid
+  pic: 5.JPG
+  note: Um LG Exchange é um evento de intercâmbio de alunos no qual ambas as Universidades envolvidas recebem em diferentes instantes de tempo um grupo de estudantes da outra Universidade, com o objetivo de fomentar a partilha de culturas e a criação de laços entre estudantes de toda a Europa. Este evento foi a primeira Exchange realizada pelo LG e teve Madrid como Universidade parceira.
+  url: https://www.facebook.com/events/131412020803975/
+  color: white
+
+- name: Summer Entrepreneurship Training
+  pic: 6.JPG
+  note: O SET é um evento do businessbooster, como tal, é focado no empreendedorismo e na capacidade empreendedora dos seus participantes. O que torna este evento tão especial é que está dividido em dois módulos distintos, cada um focando um aspeto específico do empreendedorismo, e realizados em duas Universidades distintas. Neste caso, Minho e Porto foram os responsáveis pela organização deste memorável evento.
+  url: https://www.facebook.com/events/1521102247901352/
+  color: white
+
+- name: 'Brain Trainer, Marketing\: Power of Influence'
+  pic: 7.JPG
+  note: Um evento Brain Trainer tem como propósito promover uma experiência de desenvolvimento pessoal, quer de soft como de hard skills, de forma a preparar os participantes para as suas vidas profissionais futuras. Neste evento, o principal tópico em estudo era o Marketing, e através de experientes professores e profissionais da área todos os participantes puderam ter uma correta perceção do que é o Marketing, qual a sua relevância nos dias de hoje e como o utilizar de forma correta.
+  url: https://www.facebook.com/events/1521102247901352/
+  color: white
+
+
+- name: TIMES Local Qualification 2016
+  pic: 8.JPG
+  note: A segunda Local Qualification organizada pelo Minho teve como vencedores um grupo de alunos que frequentava o 4º ano de estudos. José Lino, Diogo Correia, Diogo Sá e Vasco Sousa tiveram a oportunidade de disputar a semifinal do evento em Lyon.
+  url: https://www.facebook.com/events/201449170300101/
+  color: white
+
+- name: Businessbooster CoM
+  pic: 9.JPG
+  note: Este foi mais um Coordination Meeting organizado no Minho, desta vez relativo ao businessbooster. Este é um projeto que visa promover e estimular o empreendedorismo entre os estudantes, organizando diversos tipos de eventos, desde competições a eventos educacionais, sempre com o objetivo de ajudar os estudantes a começarem o seu projeto de uma forma mais eficiente, mais rápida e com mais confiança.
+  url: https://www.facebook.com/events/332440990421293/
+  color: white
+
+- name: Summer Academy
+  pic: 10.JPG
+  note: Este tipo de eventos reúne um grupo de cerca de 15 estudantes durante a interrupção escolar de Verão e visa o desenvolvimento pessoal de cada participante, através de trabalho em grupo, debates e estudo individual, tudo isto monitorizado por um experiente mentor sénior.
+  url: https://www.facebook.com/events/1715088785373681/
+  color: white
+
+- name: Leaders Workshop
+  pic: 11.JPG
+  note: Este é um evento que reúne todos os líderes da ESTIEM Central antes de um Council Meeting, e tem como objetivo promover a discussão entre os mesmos sobre diversos tópicos relacionados, não só com a organização, mas também com o desenvolvimento de competências pessoais como liderança e trabalho de grupo. É um dos eventos mais importantes em termos de sustentabilidade da organização.
+  url: https://www.facebook.com/events/579038195600605/
+  color: white
+
+- name: TIMES Local Qualification 2015
+  pic: 12.JPG
+  note: O TIMES é a maior competição europeia de casos de estudo para estudantes de Engenharia e Gestão Industrial, e está organizada por qualificações a nível local, uma semifinal internacional, organizada geralmente em cerca de 8 cidades diferentes, e uma única final que junta as melhores equipas apuradas nas semifinais. Nesta primeira edição organizada a nível local foram apurados 4 alunos que frequentavam apenas o primeiro ano do curso – Hugo Costa, Mariana Martins, Raquel Marques e Mónica Magalhães. Estes alunos tiveram a oportunidade de disputar a semifinal em Munique.
+  url: https://www.facebook.com/events/1671395609769120/
+  color: white
+
+- name: Language Programme Coordination  Meeting
+  pic: apresentação.JPG
+  note: O primeiro evento organizado no Minho foi um Coordination Meeting, um evento cujo principal objetivo passa pela coordenação de um comité, projeto ou iniciativa da ESTIEM Central. Neste caso tratava-se do Language Programme, uma iniciativa que procura possibilitar a aprendizagem de diversas línguas aos estudantes da organização.
+  url:
+  color: white
