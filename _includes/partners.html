@@ -9,9 +9,9 @@
     {% for partner in site.data.partners %}
     {% if partner.pic %}
     <section id="partnersbody" class="{{partner.color}}">
-    <div class="container">
-      <a href="{{partner.link}}" >
-        <div class="col-md-4 partner-img" style="background-image: url({% asset_path 'partners/{{partner.pic}}'%})" >
+    <div class="container v-spacee">
+      <a  class="col-md-4 v-spacee"href="{{partner.link}}" >
+        <div class="partner-img" style=" background-image: url({% asset_path 'partners/{{partner.pic}}'%})" >
         </div>
       </a>
       <div class="col-md-8 ">
