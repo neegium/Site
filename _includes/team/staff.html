@@ -1,9 +1,12 @@
 <div id="tudo">
-    
-  <section id="staffhead">
+
+  <section id="honorshead">
+    <div class="container" style="margin-top: 50px">
+   
       <div class="section-title-container">
-          <h1 class="section-title staff-title"> Quem somos ? </h1>
+        <h1 class="section-title honor-title"> Quem somos ? </h1>
       </div >
+    </div>
   </section>
 
 
@@ -50,8 +53,13 @@
   
     <section id="honorsbody">
       <div class="container" style="margin-top: 50px">
+        
+        <div class="col-md-3 col-sm-4 col-1 card mx-auto" style="margin-bottom: 100px;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="200" data-aos-offset="-50">
+          <img class="card-img-top center-block img-responsive" src="{% asset_path 'honors/estiem.png' %}" style="max-width: 200px;">
+        </div>
+
         {% for member in site.data.estiem %}
-        {% if member.pic %}
+        {% if member.pic and member.name %}
         <div class="col-md-3 col-sm-4 col-1 card mx-auto" style="margin-bottom: 100px;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="200" data-aos-offset="-50">
             <img class="card-img-top center-block img-responsive" src="{% asset_path 'honors/{{ member.pic }}' %}" style="max-width: 200px; border-radius: 80%;">
             <div class="card-body">
@@ -74,8 +82,11 @@
 
   <section id="honorsbody">
     <div class="container" style="margin-top: 50px">
+      <div class="col-md-3 col-sm-4 col-1 card mx-auto" style="margin-bottom: 100px;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="200" data-aos-offset="-50">
+        <img class="card-img-top center-block img-responsive" src="{% asset_path 'honors/assembleia_geral.png' %}" style="max-width: 200px;">
+      </div>
       {% for member in site.data.ag %}
-      {% if member.pic %}
+      {% if member.pic and member.name %}
       <div class="col-md-3 col-sm-4 col-1 card mx-auto" style="margin-bottom: 100px;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="200" data-aos-offset="-50">
           <img class="card-img-top center-block img-responsive" src="{% asset_path 'honors/{{ member.pic }}' %}" style="max-width: 200px; border-radius: 80%;">
           <div class="card-body">
@@ -98,8 +109,12 @@
 
   <section id="honorsbody">
     <div class="container" style="margin-top: 50px">
+      <div class="col-md-3 col-sm-4 col-1 card mx-auto" style="margin-bottom: 100px;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="200" data-aos-offset="-50">
+        <img class="card-img-top center-block img-responsive" src="{% asset_path 'honors/conselho_fiscal.png' %}" style="max-width: 200px;">
+      </div>
+
       {% for member in site.data.cf %}
-      {% if member.pic %}
+      {% if member.pic and member.name %}
       <div class="col-md-3 col-sm-4 col-1 card mx-auto" style="margin-bottom: 100px;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500" data-aos-delay="200" data-aos-offset="-50">
           <img class="card-img-top center-block img-responsive" src="{% asset_path 'honors/{{ member.pic }}' %}" style="max-width: 200px; border-radius: 80%;">
           <div class="card-body">
