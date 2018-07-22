@@ -10380,7 +10380,7 @@ img {
       content: "";
       position: absolute;
       width: 6px;
-      background-color: #fafafa;
+      background-color: #ededed;
       top: 0;
       bottom: 0;
       left: 50%;
@@ -10410,18 +10410,20 @@ img {
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    bottom: 240px;
     width: 0;
     z-index: 1;
     right: 30px;
     border: medium solid #f58032;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #f58032; }
+  #eventss .even::after {
+    top: 52px; }
   #eventss .odd::before {
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    bottom: 242px;
     width: 0;
     z-index: 1;
     left: 30px;
@@ -10429,10 +10431,11 @@ img {
     border-width: 10px 10px 10px 0;
     border-color: transparent #f58032 transparent transparent; }
   #eventss .odd::after {
+    top: 50px;
     left: -16px; }
   #eventss .content {
     padding: 20px 30px;
-    background-color: #fafafa;
+    background-color: white;
     position: relative;
     border-radius: 6px; }
   @media screen and (max-width: 600px) {
@@ -10492,7 +10495,8 @@ img {
     background-position: center center;
     background-repeat: none;
     background-size: cover;
-    -o-background-size: cover; }
+    -o-background-size: cover;
+    padding: -25px; }
     #eventss #eventsbody.white {
       background-color: rgba(255, 255, 255, 0.8); }
     #eventss #eventsbody.gray {
@@ -10505,8 +10509,8 @@ img {
       display: block;
       margin: 0 auto;
       padding: 10px;
-      width: 300px;
-      height: 300px;
+      width: 200px;
+      height: 200px;
       -o-object-fit: cover;
          object-fit: cover; }
     #eventss #eventsbody .event-img {
