@@ -18,7 +18,7 @@
       content: ''
       position: absolute
       width: 6px
-      background-color: #fafafa
+      background-color: #ededed
       top: 0
       bottom: 0
       left: 50%
@@ -60,17 +60,20 @@
 
   /* Add arrows to the left container (pointing right)
 
-  .even::before
-    content: " "
-    height: 0
-    position: absolute
-    top: 22px
-    width: 0
-    z-index: 1
-    right: 30px
-    border: medium solid #f58032
-    border-width: 10px 0 10px 10px
-    border-color: transparent transparent transparent #f58032
+  .even
+    &::before
+      content: " "
+      height: 0
+      position: absolute
+      bottom: 240px
+      width: 0
+      z-index: 1
+      right: 30px
+      border: medium solid #f58032
+      border-width: 10px 0 10px 10px
+      border-color: transparent transparent transparent #f58032
+    &::after
+      top: 52px
 
   /* Add arrows to the right container (pointing left)
 
@@ -79,7 +82,7 @@
       content: " "
       height: 0
       position: absolute
-      top: 22px
+      bottom: 242px
       width: 0
       z-index: 1
       left: 30px
@@ -87,6 +90,7 @@
       border-width: 10px 10px 10px 0
       border-color: transparent #f58032 transparent transparent
     &::after
+      top: 50px
       left: -16px
 
   /* Fix the circle for containers on the right side
@@ -95,7 +99,7 @@
 
   .content
     padding: 20px 30px
-    background-color: #fafafa
+    background-color: white
     position: relative
     border-radius: 6px
 
@@ -166,6 +170,7 @@
     -moz-background-size: cover
     background-size: cover
     -o-background-size: cover
+    padding: -25px
     &.white
       background-color: rgba(255,255,255,0.8)
     &.gray
@@ -178,8 +183,8 @@
       display: block
       margin: 0 auto
       padding: 10px
-      width: 300px
-      height: 300px
+      width: 200px
+      height: 200px
       object-fit: cover
     .event-img
       border-radius: 100%
