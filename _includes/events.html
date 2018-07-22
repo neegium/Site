@@ -10,16 +10,24 @@
     {% if event.pic %}
     <section id="eventsbody" class="{{event.color}}">
     <div class="container">
-      <a href="{{event.url}}" >
-        <div class="col-md-4 event-img" style="background-image: url({% asset_path 'events/{{event.pic}}'%})" >
-        </div>
-      </a>
-      <div class="col-md-8 event-info">
-        <h3 class="event-name">{{ event.name }}</h3>
+      <div class="row v-spacee">
+      <div class="col-md-4">
+        <a href="{{event.url}}" >
+          <div class=" event-img" style="background-image: url({% asset_path 'events/{{event.pic}}'%})" >
+          </div>
+        </a>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-12" style="padding-bottom: 30px;">
+            <h3 class="event-name">{{ event.name }}</h3>
+          </div>
           {% if event.note %}
-            <div class="events-bio"> {{ event.note }}</div>
+            <div class="events-bio col-md-12"> {{ event.note }}</div>
           {% endif %}
+          </div>
         </div>
+      </div>
       </div>
     </section>
     {% endif %}
