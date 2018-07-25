@@ -17,25 +17,30 @@
     <p style="color: black; font-size: medium; font-weight: bold">O principal objetivo do LG é funcionar como ponte de ligação entre os estudantes do Minho e todos os eventos, possibilidades e pessoas da organização no resto da Europa, contribuindo, não só para a divulgação dos eventos externos, mas também como principal impulsionador para a organização de eventos pelos próprios estudantes do LG.</p>
   </div>
 </div>
-<div id="eventss" >
+
     {% for event in site.data.events %}
     {% if event.pic %}
-    <div class="timeline">
-      <section id="eventsbody" class="{{event.color}}">
-       <div class="container {% cycle 'odd', 'even' %}">
-         <div class="content">
-           <div class="row">
-             <div class="col-md-12">
-               <h3 class="event-name">{{ event.name }}</h3>
-             </div>
-             <div class="col-md-12">
-               <img width="300" height="300"src="{% asset_path 'event/{{event.pic}}' %}" class="img-responsive">
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
-   </div>
+    <section id="eventsbody" class="{{event.color}}">
+      <div class="container">
+        <div class="row v-spacee">
+        <div class="col-md-4">
+          <a href="{{event.url}}" >
+            <div class=" event-img" style="background-image: url({% asset_path 'events/{{ event.pic }}' %})" >
+            </div>
+          </a>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-12" style="padding-bottom: 30px;">
+              <h3 class="event-name">{{ event.name }}</h3>
+            </div>
+            {% if event.note %}
+              <div class="events-bio col-md-12"> {{ event.note }}</div>
+            {% endif %}
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
     {% endif %}
     {% endfor %}
-</div>
