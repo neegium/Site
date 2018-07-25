@@ -10980,6 +10980,68 @@ footer {
   color: #212121;
   margin: auto; }
 
+#eventsbody {
+  background-size: cover;
+  background-attachment: scroll;
+  font-size: 1.2em;
+  font-family: "Lato";
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #222;
+  display: block;
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: -25px; }
+  #eventsbody.white {
+    background-color: rgba(255, 255, 255, 0.8); }
+  #eventsbody.gray {
+    background-color: #fafafa; }
+  #eventsbody .v-spacee {
+    display: flex;
+    align-items: center; }
+  #eventsbody img {
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  #eventsbody .event-img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  #eventsbody .event-info {
+    display: inline-block;
+    vertical-align: middle;
+    float: none; }
+  #eventsbody .event-name {
+    text-transform: none;
+    color: #f58032;
+    font-size: 22px; }
+  #eventsbody .honor-job {
+    text-transform: none;
+    font-size: 20px; }
+  #eventsbody .honor-bio {
+    text-align: justify;
+    text-justify: inter-word; }
+  #eventsbody .honor-comment {
+    margin: 20px 0px;
+    text-align: justify;
+    text-justify: inter-word; }
+
 #vision {
   text-align: justify;
   padding: 100px 0;
