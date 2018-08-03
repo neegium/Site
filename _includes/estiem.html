@@ -18,13 +18,22 @@
     {% if event.pic %}
     <section id="eventsbody" class="{{event.color}}">
       <div class="container">
+<<<<<<< HEAD
         <div class="col-md-4 col-sm-12 col-1">
+=======
+        <div class="row v-spacee">
+        <div class="col-md-4">
+>>>>>>> develope
           <a href="{{event.url}}" >
             <div class=" event-img" style="background-image: url({% asset_path 'events/{{ event.pic }}' %})" >
             </div>
           </a>
         </div>
+<<<<<<< HEAD
         <div class="col-md-8 col-sm-12 col-1">
+=======
+        <div class="col-md-8">
+>>>>>>> develope
           <div class="row">
             <div class="col-md-12" style="padding-bottom: 30px;">
               <h3 class="event-name">{{ event.name }}</h3>
@@ -35,6 +44,10 @@
             </div>
           </div>
         </div>
+<<<<<<< HEAD
+=======
+        </div>
+>>>>>>> develope
       </section>
     {% endif %}
     {% endfor %}
