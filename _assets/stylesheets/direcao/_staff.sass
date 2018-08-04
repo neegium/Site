@@ -20,6 +20,12 @@
   .section-title-container
     text-align: center
     margin-top: 50px
+img
+  padding: 10px
+  width: 200px
+  height: 200px
+  -o-object-fit: cover
+  object-fit: cover
 
 #stafftitle
   background-attachment: fixed
@@ -107,186 +113,6 @@ section .staff-info ul.social-buttons
   background-position: center center
   background-repeat: no-repeat
 
-/* Large*/
-@media (min-width: 1200px)
-  div.staff-info-container
-    height: 194px
-    width: 194px
-
-/* Medium*/
-@media (min-width: 992px) and (max-width: 1199px)
-  div.staff-info-container
-    height: 186px
-    width: 186px
-  div.staff-name
-    font-size: 16px
-  .staff-position
-    font-size: 12px
-  section .staff-info ul.social-buttons li a
-    height: 30px
-    width: 30px
-    font-size: 14px
-    line-height: 30px
-  #lista
-    font-size: 70px
-
-@media (min-width: 768px) and (max-width: 991px)
-  div.staff-info-container
-    height: 186px
-    width: 186px
-  section .staff-info ul.social-buttons li a
-    height: 18px
-    width: 18px
-    font-size: 9px
-    line-height: 18px
-    margin-bottom: -10px
-  div
-    &.staff-name
-      font-size: 14px
-    &.staff-position
-      font-size: 9px
-  #lista
-    font-size: 60px
-
-@media (max-width: 767px)
-  div.staff-info-container
-    height: 186px
-    width: 186px
-  section .staff-info ul.social-buttons
-    li a
-      height: 30px
-      width: 30px
-      font-size: 14px
-      line-height: 30px
-    margin-bottom: 5px
-  div
-    &.staff-name
-      font-size: 14px
-    &.staff-position
-      font-size: 11px
-  #lista
-    font-size: 50px
-  #staff
-    .container
-      .estiem
-        max-width: 1000px !important
-
-@media (max-width: 717px)
-  div.staff-info-container
-    height: 170px
-    width: 170px
-  div
-    &.staff-name
-      font-size: 13px
-  #staff 
-    .staff-text
-      font-size: 13px
-
-@media (max-width: 667px)
-  div.staff-info-container
-    height: 160px
-    width: 160px
-  section .staff-info ul.social-buttons li a
-    height: 20px
-    width: 20px
-    font-size: 11px
-    line-height: 20px
-  div
-    &.staff-name
-      font-size: 12px
-  #staff
-    .staff-text
-      font-size: 12px
-    .staff
-      padding: 10px 120px
-  #lista
-    font-size: 40px
-
-@media (max-width: 617px)
-  div.staff-info-container
-    height: 150px
-    width: 150px
-  #staff
-    .staff
-      padding: 20px 100px
-  div
-    &.staff-name
-      font-size: 12px
-      width: 100%
-  #staff 
-    .staff-text
-      font-size: 12px
-
-@media (max-width: 567px)
-  div.staff-info-container
-    height: 145px
-    width: 145px
-  #staff
-    .staff
-      padding: 20px 100px
-
-@media (max-width: 517px)
-  div.staff-info-container
-    height: 160px
-    width: 160px
-  div
-    &.staff-name
-      font-size: 14px
-    &.staff-position
-      font-size: 8px
-  #staff
-    .staff
-      padding: 0px 160px
-
-@media (max-width: 467px)
-  div.staff-info-container
-    height: 145px
-    width: 145px
-  div
-    &.staff-position
-      display: none
-  #staff
-    .staff
-      padding: 10px 140px
-  #lista
-    font-size: 30px
-
-@media (max-width: 417px)
-  div.staff-info-container
-    height: 145px
-    width: 145px
-  #staff
-    .staff
-      padding: 10px 110px
-
-
-@media (max-width: 387px)
-  div.staff-info-container
-    height: 145px
-    width: 145px
-
-@media (max-width: 357px)
-  div.staff-info-container
-    height: 145px
-    width: 145px
-  #staff
-    .staff
-      padding: 10px 95px
-
-@media (max-width: 337px)
-  div.staff-info-container
-    height: 145px
-    width: 145px
-  #lista
-    font-size: 25px
-  #staff
-    .staff
-      padding: 10px 90px
-
-@media (max-width: 310px)
-  #staff
-    .staff
-      padding: 10px 85px
 
 .staff-info
   color: #fff
@@ -294,7 +120,7 @@ section .staff-info ul.social-buttons
   top: 100%
   height: 100%
   width: 100%
-  text-align: center 
+  text-align: center
   transition: top 0.2s ease
   -webkit-transition: top 0.2s ease
   -o-transition: top 0.2s ease
