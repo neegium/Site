@@ -10105,6 +10105,9 @@ img {
       color: #222; }
     #team #staff .staff {
       padding: 20px 125px; }
+    #team #staff .estiem {
+      max-width: 250px;
+      max-height: 200px; }
   #team .staff-carousel {
     height: 450px; }
   #team .staff, #team .staff-pic {
@@ -10178,7 +10181,9 @@ img {
     #team div.staff-position {
       font-size: 11px; }
     #team #lista {
-      font-size: 50px; } }
+      font-size: 50px; }
+    #team #staff .container .estiem {
+      max-width: 1000px !important; } }
   @media (max-width: 717px) {
     #team div.staff-info-container {
       height: 170px;
@@ -11042,6 +11047,10 @@ footer {
     text-align: justify;
     text-justify: inter-word; }
 
+@media (max-width: 350px) {
+  #eventsbody .event-img {
+    height: 200px;
+    width: 200px; } }
 #vision {
   text-align: justify;
   padding: 100px 0;
