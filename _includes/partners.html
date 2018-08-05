@@ -9,12 +9,14 @@
     {% for partner in site.data.partners %}
     {% if partner.pic %}
     <section id="partnersbody" class="{{partner.color}}">
-    <div class="container v-spacee">
-      <a  class="col-md-4 v-spacee"href="{{partner.link}}" >
-        <div class="partner-img" style=" background-image: url({% asset_path 'partners/{{partner.pic}}'%})" >
-        </div>
-      </a>
-      <div class="col-md-8 ">
+    <div class="container">
+      <div class="col-md-4 col-sm-12">
+        <a href="{{partner.link}}" >
+          <div class="partner-img" style=" background-image: url({% asset_path 'partners/{{partner.pic}}'%})" >
+          </div>
+        </a>
+      </div>
+      <div class="col-md-8 col-sm-12 ">
         <h3 class="partner-name">{{ partner.name }}</h3>
         <div class="partners-bio">
           {% for item in partner.bio%}
