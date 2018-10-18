@@ -8,23 +8,25 @@
 </section>
     {% for partner in site.data.partners %}
     {% if partner.pic %}
-    <section id="partnersbody" class="{{partner.color}}">
-    <div class="container">
-      <div class="col-md-4 col-sm-12">
-        <a href="{{partner.link}}" >
-          <div class="partner-img" style=" background-image: url({% asset_path 'partners/{{partner.pic}}'%})" >
+    <section id="eventsbody" class="{{event.color}}">
+      <div class="container">
+        <div class="col-md-4 col-sm-12 col-1">
+          <a href="{{partner.link}}" >
+            <div class=" event-img" style="width: 300px; height: 150px; background-repeat: no-repeat ;background-position: center ;background-size: contain; background-image: url({% asset_path 'partners/{{ partner.pic }}' %})" >
+            </div>
+          </a>
+        </div>
+        <div class="col-md-8 col-sm-12 col-1">
+          <div class="row">
+            <div class="col-md-12" style="padding-bottom: 30px;">
+              <h3 class="event-name">{{ partner.name }}</h3>
+            </div>
+            {% for item in partner.bio%}
+              <div class="events-bio col-md-12"> {{ item.ben }}</div>
+            {% endfor %}
+            </div>
           </div>
-        </a>
-      </div>
-      <div class="col-md-8 col-sm-12 ">
-        <h3 class="partner-name">{{ partner.name }}</h3>
-        <div class="partners-bio">
-          {% for item in partner.bio%}
-          <li>{{item.ben}}</li>
-          {% endfor %}
         </div>
-        </div>
-      </div>
-    </section>
+      </section>
     {% endif %}
     {% endfor %}
