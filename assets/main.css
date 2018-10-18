@@ -10036,125 +10036,271 @@ img {
   display: inline-block;
   vertical-align: middle; }
 
-#team #tudo {
-  background-color: #fafafa; }
-#team #staffhead {
-  background-attachment: fixed;
-  background-color: #dd6600;
-  background-position: center center;
-  background-repeat: none;
-  background-size: cover;
-  -o-background-size: cover;
-  height: 100%;
-  padding-top: 50px;
-  color: black; }
-  #team #staffhead .staff-title {
-    margin-bottom: 30px;
-    border: 3px solid #fafafa;
-    color: #fafafa; }
-  #team #staffhead .section-title-container {
+#team {
+  /* Large */
+  /* Medium */ }
+  #team #tudo {
+    background-color: #fafafa; }
+  #team #staffhead {
+    background-attachment: fixed;
+    background-color: #dd6600;
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    padding-top: 50px;
+    color: black; }
+    #team #staffhead .staff-title {
+      margin-bottom: 30px;
+      border: 3px solid #fafafa;
+      color: #fafafa; }
+    #team #staffhead .section-title-container {
+      text-align: center;
+      margin-top: 50px; }
+  #team img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover; }
+  #team #stafftitle {
+    background-attachment: fixed;
+    background-color: #fafafa;
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    padding-top: 0px;
+    color: black; }
+    #team #stafftitle .staff-title {
+      margin-bottom: 30px;
+      border: 3px solid #0a0a0a;
+      color: #000000; }
+    #team #stafftitle .section-title-container {
+      text-align: center;
+      margin-top: 50px; }
+  #team #lista {
+    background-position: center center;
+    background-color: #fafafa;
+    background-repeat: none;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    color: black;
     text-align: center;
-    margin-top: 50px; }
-#team img {
-  padding: 10px;
-  width: 200px;
-  height: 200px;
-  -o-object-fit: cover;
-  object-fit: cover; }
-#team #stafftitle {
-  background-attachment: fixed;
-  background-color: #fafafa;
-  background-position: center center;
-  background-repeat: none;
-  background-size: cover;
-  -o-background-size: cover;
-  height: 100%;
-  padding-top: 0px;
-  color: black; }
-  #team #stafftitle .staff-title {
-    margin-bottom: 30px;
-    border: 3px solid #0a0a0a;
-    color: #000000; }
-  #team #stafftitle .section-title-container {
-    text-align: center;
-    margin-top: 50px; }
-#team #lista {
-  background-position: center center;
-  background-color: #fafafa;
-  background-repeat: none;
-  background-size: cover;
-  -o-background-size: cover;
-  height: 100%;
-  color: black;
-  text-align: center;
-  list-style-type: none;
-  font-size: 70px;
-  margin: auto;
-  margin-top: 0px;
-  color: #000000;
-  padding: 0px;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  font-weight: 500; }
-#team #staff {
-  padding-bottom: 75px;
-  background-attachment: fixed;
-  background-color: #fafafa;
-  background-position: center center;
-  background-repeat: none;
-  background-size: cover;
-  -o-background-size: cover; }
-  #team #staff .staff-text {
-    text-align: center;
-    color: #222; }
-  #team #staff .staff {
-    padding: 20px 125px; }
-  #team #staff .estiem {
-    max-width: 250px;
-    max-height: 200px; }
-#team .staff-carousel {
-  height: 450px; }
-#team .staff, #team .staff-pic {
-  padding: 0px; }
-#team section .staff-info ul.social-buttons {
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
-  #team section .staff-info ul.social-buttons li {
+    list-style-type: none;
+    font-size: 70px;
+    margin: auto;
+    margin-top: 0px;
+    color: #000000;
+    padding: 0px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: 500; }
+  #team #staff {
+    padding-bottom: 75px;
+    background-attachment: fixed;
+    background-color: #fafafa;
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    -o-background-size: cover; }
+    #team #staff .staff-text {
+      text-align: center;
+      color: #222; }
+    #team #staff .staff {
+      padding: 20px 125px; }
+    #team #staff .estiem {
+      max-width: 250px;
+      max-height: 200px; }
+  #team .staff-carousel {
+    height: 450px; }
+  #team .staff, #team .staff-pic {
+    padding: 0px; }
+  #team section .staff-info ul.social-buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    #team section .staff-info ul.social-buttons li {
+      position: relative;
+      text-align: center; }
+  #team .staff-info-container {
+    margin: 50px 0px;
+    height: 200px;
+    width: 200px;
     position: relative;
-    text-align: center; }
-#team .staff-info-container {
-  margin: 50px 0px;
-  height: 200px;
-  width: 200px;
-  position: relative;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat; }
-#team .staff-info {
-  color: #fff;
-  position: absolute;
-  top: 100%;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  transition: top 0.2s ease;
-  -webkit-transition: top 0.2s ease;
-  -o-transition: top 0.2s ease;
-  -moz-transition: top 0.2s ease;
-  text-transform: uppercase; }
-#team .staff-name {
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  color: #212121;
-  margin: auto; }
-#team .staff-position {
-  line-height: 100%;
-  color: #424242;
-  margin-bottom: 5%; }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  @media (min-width: 1200px) {
+    #team div.staff-info-container {
+      height: 194px;
+      width: 194px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #team div.staff-info-container {
+      height: 186px;
+      width: 186px; }
+    #team div.staff-name {
+      font-size: 16px; }
+    #team .staff-position {
+      font-size: 12px; }
+    #team section .staff-info ul.social-buttons li a {
+      height: 30px;
+      width: 30px;
+      font-size: 14px;
+      line-height: 30px; }
+    #team #lista {
+      font-size: 70px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #team div.staff-info-container {
+      height: 186px;
+      width: 186px; }
+    #team section .staff-info ul.social-buttons li a {
+      height: 18px;
+      width: 18px;
+      font-size: 9px;
+      line-height: 18px;
+      margin-bottom: -10px; }
+    #team div.staff-name {
+      font-size: 14px; }
+    #team div.staff-position {
+      font-size: 9px; }
+    #team #lista {
+      font-size: 60px; } }
+  @media (max-width: 767px) {
+    #team div.staff-info-container {
+      height: 186px;
+      width: 186px; }
+    #team section .staff-info ul.social-buttons {
+      margin-bottom: 5px; }
+      #team section .staff-info ul.social-buttons li a {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 30px; }
+    #team div.staff-name {
+      font-size: 14px; }
+    #team div.staff-position {
+      font-size: 11px; }
+    #team #lista {
+      font-size: 50px; }
+    #team #staff .container .estiem {
+      max-width: 1000px !important; } }
+  @media (max-width: 717px) {
+    #team div.staff-info-container {
+      height: 170px;
+      width: 170px; }
+    #team div.staff-name {
+      font-size: 13px; }
+    #team #staff .staff-text {
+      font-size: 13px; } }
+  @media (max-width: 667px) {
+    #team div.staff-info-container {
+      height: 160px;
+      width: 160px; }
+    #team section .staff-info ul.social-buttons li a {
+      height: 20px;
+      width: 20px;
+      font-size: 11px;
+      line-height: 20px; }
+    #team div.staff-name {
+      font-size: 12px; }
+    #team #staff .staff-text {
+      font-size: 12px; }
+    #team #staff .staff {
+      padding: 10px 120px; }
+    #team #lista {
+      font-size: 40px; } }
+  @media (max-width: 617px) {
+    #team div.staff-info-container {
+      height: 150px;
+      width: 150px; }
+    #team #staff .staff {
+      padding: 20px 100px; }
+    #team div.staff-name {
+      font-size: 12px;
+      width: 100%; }
+    #team #staff .staff-text {
+      font-size: 12px; } }
+  @media (max-width: 567px) {
+    #team div.staff-info-container {
+      height: 145px;
+      width: 145px; }
+    #team #staff .staff {
+      padding: 20px 100px; } }
+  @media (max-width: 517px) {
+    #team div.staff-info-container {
+      height: 160px;
+      width: 160px; }
+    #team div.staff-name {
+      font-size: 14px; }
+    #team div.staff-position {
+      font-size: 8px; }
+    #team #staff .staff {
+      padding: 0px 160px; } }
+  @media (max-width: 467px) {
+    #team div.staff-info-container {
+      height: 145px;
+      width: 145px; }
+    #team div.staff-position {
+      display: none; }
+    #team #staff .staff {
+      padding: 10px 140px; }
+    #team #lista {
+      font-size: 30px; } }
+  @media (max-width: 417px) {
+    #team div.staff-info-container {
+      height: 145px;
+      width: 145px; }
+    #team #staff .staff {
+      padding: 10px 110px; } }
+  @media (max-width: 387px) {
+    #team div.staff-info-container {
+      height: 145px;
+      width: 145px; } }
+  @media (max-width: 357px) {
+    #team div.staff-info-container {
+      height: 145px;
+      width: 145px; }
+    #team #staff .staff {
+      padding: 10px 95px; } }
+  @media (max-width: 337px) {
+    #team div.staff-info-container {
+      height: 145px;
+      width: 145px; }
+    #team #lista {
+      font-size: 25px; }
+    #team #staff .staff {
+      padding: 10px 90px; } }
+  @media (max-width: 310px) {
+    #team #staff .staff {
+      padding: 10px 85px; } }
+  #team .staff-info {
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: top 0.2s ease;
+    -webkit-transition: top 0.2s ease;
+    -o-transition: top 0.2s ease;
+    -moz-transition: top 0.2s ease;
+    text-transform: uppercase; }
+  #team .staff-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #212121;
+    margin: auto; }
+  #team .staff-position {
+    line-height: 100%;
+    color: #424242;
+    margin-bottom: 5%; }
 
 #partnershead {
   background-attachment: fixed;
